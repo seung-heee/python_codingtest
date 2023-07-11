@@ -17,5 +17,17 @@ Settings -> Code-runner: Excutor Map -> code-runner.executorMap -> "python": "se
 
 #### Day02(230711):
 
-- 자료형  
-   문자열 : str.len()-문자열 길이 / str.min()-최솟값 / str.max()-최댓값 / str.count("d")-문자열str 내 d의 개수 / str.find("d")-문자열A 내 d의 위치 / replace('원래문자', '변경문자')
+- 자료형
+  - 문자열, 리스트
+    .len() : 길이
+    .min() : 최솟값
+    .max() : 최댓값
+    .find("d") : 문자열 내 d의 위치(인덱스)
+    .replace('원래문자', '변경문자') : 문자 변경
+    .append() : 요소 추가
+    .count() : 요소 개수
+    .insert(index, 값) : index위치에 값 삽입
+    .remove() : 제거
+    .sort() : 정렬(기본은 오름차순)
+    .reverse() : 거꾸로 뒤집기
+    .pop() : 마지막 요소 제거

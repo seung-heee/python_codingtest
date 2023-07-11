@@ -1,3 +1,5 @@
+# find(), count() 중요!
+
 a = "hello"
 b = "world"
 # 분리시 split, 연결시 +
