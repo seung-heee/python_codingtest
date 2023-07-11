@@ -18,6 +18,7 @@ Settings -> Code-runner: Excutor Map -> code-runner.executorMap -> "python": "se
 #### Day02(230711):
 
 - 자료형
+
   - 문자열, 리스트
     .len() : 길이
     .min() : 최솟값
@@ -31,3 +32,5 @@ Settings -> Code-runner: Excutor Map -> code-runner.executorMap -> "python": "se
     .sort() : 정렬(기본은 오름차순)
     .reverse() : 거꾸로 뒤집기
     .pop() : 마지막 요소 제거
+
+  - 튜플 : 정적 데이터 삽입, 서로 다른 데이터 묶어서 관리, 최단 경로 알고리즘 or 해싱의 키로 자주 활용됨(값x)
