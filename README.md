@@ -34,3 +34,5 @@ Settings -> Code-runner: Excutor Map -> code-runner.executorMap -> "python": "se
     .pop() : 마지막 요소 제거
 
   - 튜플 : 정적 데이터 삽입, 서로 다른 데이터 묶어서 관리, 최단 경로 알고리즘 or 해싱의 키로 자주 활용됨(값x)
+
+#### Day03(230712):
