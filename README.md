@@ -45,3 +45,24 @@ Settings -> Code-runner: Excutor Map -> code-runner.executorMap -> "python": "se
   - O(n²)-데이터가 많아질수록 처리시간이 급수적으로 늘어나는 알고리즘 ex 이중루프
 - 성능 : O(1) < O(log n) < O(nlog n) < O(n²) < O(2ⁿ)
 - 그리디 : 탐욕법, 욕심쟁이!
+
+#### Day06(230717):
+
+- 스택 : 선입후출 DFS
+
+  - 추가 append()
+  - 삭제 pop()
+  - 재귀, DFS, 역추적 작업(괄호 검사, 후위 연산법, 문자열 역순 등)
+
+- 큐 : 선입선출 BFS
+- 데큐 : 양방향 큐 BFS
+
+  - 추가 append()
+  - 삭제 popleft()
+  - 역순 reverse()
+  - 프로세스, 순차 데이터 처리
+
+- 재귀함수 : 자기 자신 다시 호출하는 함수 DFS
+  - 반드시 종료 조건 지정
+  - 팩터리얼(factorial 함수) – 콜 스택 저장(메모리 사용)
+  - 유클리드 호제법 - 최대공약수, 피보나치
