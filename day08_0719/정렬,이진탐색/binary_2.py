@@ -4,9 +4,6 @@ from bisect import bisect_left, bisect_right
 def count_by_value(bisectarray, value):
     left_index = bisect_left(array, value)
     right_index = bisect_right(array, value)
-    print(left_index)
-    print(right_index)
-
     return right_index - left_index  # 특정 값의 개수 반환
 
 
